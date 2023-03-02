@@ -89,7 +89,7 @@ html, body {
   padding: 0 0 5rem 1rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 750px) {
   .wrapper {
     flex-direction: column;
   }

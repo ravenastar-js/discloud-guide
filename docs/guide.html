@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="💚 Docs Guide"/>
+    <meta name="og:image" content="https://i.imgur.com/w0thazt.png"/>
+    <meta name="theme-color" content="#57f287" />
+    <link rel="shortcut icon" href="https://i.imgur.com/w0thazt.png"/>
+    <link rel="stylesheet" href="discloud-global.css">
+    <link rel="stylesheet" href="discloud-doc.css">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+  </head>
+  <body>
+    <div class="guide__bg"></div>
+    <nav class="header">
+      <h1 class="logo">Docs Guide</h1>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="https://docs.discloudbot.com" class="link link--dark"><i class="fa-solid fa-book"></i> Documentação</a></li>
+        <li class="menu__item"><a href="/" class="link link--dark"><i class="fa fa-home"></i> Home</a></li>
+      </ul>
+    </nav>
+    <div class="wrapper">
+      <aside class="guide__nav">
+        <ul>
+          <li class="js-btn selected">Bem-vindo(a)</li>
+          <li class="js-btn">discloud.config</li>
+          <li class="js-btn">Javascript</li>
+        </ul>
+      </aside>
+      <article class="guide__content">
+
+        <section class="js-section">
+          <h3 class="section__title">Bem-vindo(a)</h3>
+          <p>Se você tiver alguma dúvida que esteja além do escopo deste guia, sinta-se à vontade para acessar a documentação oficial da DisCloud.</p>
+          <hr/>
+        </section>
+
+          <section class="js-section">
+          <h3 class="section__title">discloud.config</h3>
+          <p>O discloud.config é um arquivo de configurações, que agiliza o processo de upload de suas aplicações para a DisCloud.</p>
+          <div class="hero__terminal">
+            <pre>
+              <!-- Coloque seu código de demonstração aqui -->
+              <code class="shell-session config-1"></code>
+            </pre>
+          </div>
+          <hr/>
+        </section>
+
+        <section class="js-section">
+          <h3 class="section__title">Javascript</h3>
+          <p>Diferença entre const, let e var.</p>
+          <table id="customers">
+            <tr>
+              <th>keyword</th>
+              <th>const</th>
+              <th>let</th>
+              <th>var</th>
+            </tr>
+            <tr>
+              <td>global scope</td>
+              <td>NO</td>
+              <td>NO</td>
+              <td>YES</td>
+            </tr>
+            <tr>
+              <td>function scope</td>
+              <td>YES</td>
+              <td>YES</td>
+              <td>YES</td>
+            </tr>
+            <tr>
+              <td>block scope</td>
+              <td>YES</td>
+              <td>YES</td>
+              <td>NO</td>
+            </tr>
+            <tr>
+              <td>can be reassigned</td>
+              <td>NO</td>
+              <td>YES</td>
+              <td>YES</td>
+            </tr>
+          </table>
+        </section>
+    </div>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="discloud.js"></script>
+  </body>
+</html>

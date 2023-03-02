@@ -282,7 +282,7 @@ table td:first-child {
 }
 
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 900px) {
   nav {
     grid-template-columns: 70px auto;
   }

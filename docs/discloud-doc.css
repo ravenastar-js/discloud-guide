@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -89,25 +90,38 @@ html, body {
   padding: 0 0 5rem 1rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1080px) {
+  .header {
+    font-size: x-large;
+    grid-template-columns: 1fr 206px 60% 1fr;
+  }
+
   .wrapper {
     flex-direction: column;
+    width: auto;
+    margin: 0 10% 0 10%;
   }
+
   .guide__content {
     padding-left: 0;
   }
+
   .guide__nav ul {
     border-bottom: 1px solid #309f5259;
     padding-bottom: 0.5rem;
   }
+
   .guide__nav ul.fixed {
     position: relative;
     top: 0;
   }
+
   .guide__nav li {
+    font-size: xx-large;
     display: inline-block;
     padding-right: 1rem;
   }
+
   .guide__nav .selected:after {
     display: none;
   }

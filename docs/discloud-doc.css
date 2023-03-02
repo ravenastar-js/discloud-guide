@@ -5,6 +5,20 @@ body {
   min-height: 100vh;
 }
 
+.label {
+ color: #57f287;
+  border: 1px solid #309f525c;
+}
+
+.label-default {
+  font-weight: 700;
+  background-color: #309f528f;
+}
+
+.label-default[href]:focus .label-default[href]:hover {
+  background-color: #5e5e5e
+}
+
 /* layout */
 .header {
   border-bottom: 1px solid #309f5259;

@@ -41,16 +41,42 @@
           <hr/>
         </section>
 
-          <section class="js-section">
+        <section class="js-section">
           <h3 class="section__title">discloud.config</h3>
           <p>O discloud.config é um arquivo de configurações, que agiliza o processo de upload de suas aplicações para a DisCloud.</p>
-          <div class="hero__terminal">
-            <pre>
-              <!-- Coloque seu código de demonstração aqui -->
-              <code class="shell-session config-1"></code>
+          <span class="label label-default">BOT</span>
+          <div class="code__block code__block--notabs">
+            <pre class="code code--block">
+              <code>
+                NAME=MeuApp
+                TYPE=bot
+                MAIN=index.js
+                RAM=100
+                AUTORESTART=false
+                VERSION=latest
+                APT=tools
+              </code>
             </pre>
           </div>
-          <hr/>
+   
+        <span class="label label-default">WEBSITE</span>
+        <div class="code__block code__block--notabs">
+          <pre class="code code--block">
+            <code>
+              NAME=MeuSite
+              ID=subdomain
+              TYPE=site
+              MAIN=index.html
+              RAM=512
+              AUTORESTART=false
+              VERSION=latest
+              APT=tools
+            </code>
+          </pre>
+        </div>
+
+        <hr/>
+          
         </section>
 
         <section class="js-section">

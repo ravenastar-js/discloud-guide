@@ -9,30 +9,6 @@ var getAll = function (selector, scope) {
   return scope.querySelectorAll(selector);
 };
 
-// efeito de escrita na terminal
-if (document.getElementsByClassName('config-1').length > 0) {
-  var i = 0;
-  var txt = `
-  NAME=MeuApp
-  TYPE=bot
-  MAIN=index.js
-  RAM=100
-  AUTORESTART=false
-  VERSION=latest
-  APT=tools`;
-  var speed = 60;
-
-  function typeItOut () {
-    if (i < txt.length) {
-      document.getElementsByClassName('config-1')[0].innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeItOut, speed);
-    }
-  }
-  setTimeout(typeItOut, 1800);
-}
-
-
 window.addEventListener("load", function() {
   var tabContainers = getAll(".tab__container");
 

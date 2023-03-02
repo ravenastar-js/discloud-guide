@@ -110,6 +110,7 @@ hr {
 }
 
 .hero__terminal {
+  margin: 8px 0;
   border: 1px solid #57f287;
   text-align: left;
   color: #57f287;
@@ -125,6 +126,8 @@ hr {
   white-space: pre-line;
   margin: auto;
 }
+
+
 
 /* buttons */
 .button--primary {

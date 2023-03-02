@@ -13,6 +13,8 @@ function autoType(elementClass, typingSpeed, timeout) {
     
     setTimeout(function () {
       ourClass.css("opacity", 1);
+      ourClass.css("font-weight", "Bolder");
+      ourClass.css("font-family", "Helvetica");
       ourClass.css("font-size", "1.1em");
       ourClass.text("");
 

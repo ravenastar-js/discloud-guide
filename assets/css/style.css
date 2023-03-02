@@ -65,6 +65,8 @@ section.main img {
 }
 
 section.main span {
+    font-family:Helvetica;
+    font-weight:bolder;
     color: #57f287;
     font-size: 1.3em;
     font-weight: bold;

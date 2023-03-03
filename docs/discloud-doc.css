@@ -93,6 +93,7 @@ body {
   font-family: FontAwesome;
   position: absolute;
   content: "\f0c2";
+  left: -1.5rem;
 }
 
 .guide__content {

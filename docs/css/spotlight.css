@@ -1,0 +1,87 @@
+
+a, b{
+    display: inline-block;
+    color: #6c757d;
+    text-decoration: none;
+    font-weight: 600;
+}
+b{
+    padding: 10px;
+}
+button{
+    padding: 5px 10px;
+}
+
+.spotlight img,
+.image{
+    width: 29vw;
+    height: auto;
+    max-width: 300px;
+    margin: 1vmin 1vmin;
+    content-visibility: auto;
+}
+.image{
+    display: inline-block;
+    height: 20vw;
+    max-height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.spotlight img{
+    max-height: 200px;
+    object-fit: cover;
+}
+.spotlight{
+    cursor: pointer;
+    display: inline-block;
+}
+
+h1 img{
+    width: 500px;
+    max-width: 70vw;
+}
+label, button{
+    display: inline-block;
+    padding: 5px 7px;
+    margin: 3px 1px;
+    border: 1px solid #ddd;
+    background: #e9ecef;
+    font-size: 12px;
+    line-height: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button{
+    border:0;
+    outline: 0;
+    padding: 8px 18px;
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #6c757d;
+    color: #fff;
+}
+label input{
+    float: left;
+    margin-right: 7px;
+    margin-left: 2px;
+}
+
+
+a[data-media="node"]{
+    width: 29vw;
+    max-width: 300px;
+    margin: 1vmin 1vmin;
+    display: inline-block;
+    height: 20vw;
+    max-height: 200px;
+}
+a[data-media="node"] img{
+    float: left;
+    width: 33.33%;
+    margin: 0;
+    object-fit: cover;
+    height: 100%;
+    padding: 0;
+}

@@ -6,14 +6,17 @@
     <meta name="og:image" content="https://i.imgur.com/w0thazt.png"/>
     <meta name="theme-color" content="#57f287" />
     <link rel="shortcut icon" href="https://i.imgur.com/w0thazt.png"/>
-    <link rel="stylesheet" href="discloud-global.css">
-    <link rel="stylesheet" href="discloud-doc.css">
+    <link rel="stylesheet" href="css/discloud-global.css">
+    <link rel="stylesheet" href="css/discloud-doc.css">
     <!-- Title -->
     <title>Docs Guide</title>
     <!-- Fonts -->
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/spotlight.min.css">
+    <script src="js/spotlight.bundle.js"></script>
+    <link rel="stylesheet" href="css/spotlight.css">
   </head>
   <body>
     <div class="guide__bg"></div>
@@ -58,7 +61,6 @@
               </code>
             </pre>
           </div>
-   
         <span class="label label-default">WEBSITE</span>
         <div class="code__block code__block--notabs">
           <pre class="code code--block">
@@ -115,10 +117,26 @@
             </tr>
           </table>
         </section>
+
+        <hr/>
+
+        <section class="js-section">
+          <h3 class="section__title">MÍDIAS</h3>
+          <div class="spotlight-group">
+            <a data-fit="cover" data-autohide="all" class="spotlight" href="https://i.imgur.com/23RaeGU.png" data-button="CLIQUE AQUI" data-button-href="https://discloud.app" data-description="Um serviço feito para hospedar os seus aplicativos com certificados TLS gratuitos, CDN global, proteção contra DDoS e implantações automáticas com Git.">
+              <img src="https://i.imgur.com/23RaeGU.png" alt="DisCloud">
+          </a>
+            <a class="spotlight" data-media="video" data-src-mp4="video/discloud.mp4" data-button="CLIQUE AQUI" data-button-href="https://youtu.be/xFsmC8xv9LM" data-autoplay="false" data-poster="https://i.imgur.com/D9yRCer.jpeg">
+              <img src="https://i.imgur.com/D9yRCer.jpeg">
+          </a>
+          </div>
+        </section> 
+
     </div>
-   
+    
+    <link rel="stylesheet" href="js/spotlight.js">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="discloud.js"></script>
+    <script src="js/discloud.js"></script>
   </body>
 </html>
